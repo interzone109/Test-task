@@ -1,9 +1,7 @@
 package test.task02;
 
 import static org.junit.Assert.assertEquals;
-
 import org.junit.Test;
-
 import task02.Factorial;
 
 public class FactorialTest {

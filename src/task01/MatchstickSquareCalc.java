@@ -20,7 +20,6 @@ public class MatchstickSquareCalc {
 		if (rest == 1) {
 			res = res + 2 * rest + 1;
 		}
-		System.out.println(res);
 		return res;
 	}
 }

@@ -13,6 +13,7 @@ public class MatchstickSquareCalcTest {
 		
 		long matchstickQuantity = -43242L;
 		long actual = MatchstickSquareCalc.matchstickSquare(matchstickQuantity);
+		
 		long expected = 0L;
 		
 		assertEquals(expected, actual);
@@ -123,7 +124,6 @@ public class MatchstickSquareCalcTest {
 		long actual = MatchstickSquareCalc.matchstickSquare(matchstickQuantity);
 		
 		long expected = 127L;
-		System.out.println(actual);
 		assertEquals(expected, actual);
 	}
 	
